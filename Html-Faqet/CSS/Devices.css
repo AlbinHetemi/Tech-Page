@@ -1,0 +1,267 @@
+body{
+  background-image: url(../Imazhet/dott.jpg);
+  height: auto;
+  z-index: -1;
+}
+#Containers {   
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+  td{
+    padding: 4px;
+    text-align: left;
+  }
+
+  #Smartphones{
+  padding: 5px;
+  overflow: auto;
+  }
+
+
+#SmartphoneCategory {
+text-align: center; 
+}
+ #Laptops{
+     padding: 7px;
+     overflow: hidden;
+ }
+ #LaptopCategory{
+     margin-top: 50px;
+     text-align: center;
+     overflow: auto;
+ }
+ 
+ #Tabelat{
+  box-shadow: 3px 5px 15px;
+  border: none;
+  text-align: center;
+  margin-right: 30px;
+  float: left;
+  margin-top: 10px;
+ }
+
+
+.ImazhetContainer {
+    text-align: center;
+    margin-top: 3px;
+ }
+
+.ImazhetLaptop{
+  margin-top: 5px;
+}
+
+
+.Modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+     z-index: 1;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  .ModalContent {
+    position:fixed;
+    left: 100px; 
+    top: 100px;
+    background-color: #fefefe;
+    border: 2px solid #888;
+    border-radius: 5px;
+    height:60%;
+    overflow: scroll;
+    box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.4);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 2;
+    animation-name: animatetop;
+    animation-duration: 2;
+  }
+  
+
+  @-webkit-keyframes animatetop {
+    from {top:-400px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-400px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  .close {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    right: 0%;
+    float: right;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .ModalHeader {
+    position:fixed;
+    width:80%;
+    background-color:#fefefe;
+    z-index:1;
+   text-align: center;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+   height:60px;
+  }
+  
+  .ModalBody {
+    margin-top:50px;
+    padding: 2px 16px;
+}
+
+  #Modali1{
+    border: 1px solid black;
+    text-align: center;
+    width: 20%;
+    margin: 30px;
+    float: left;
+    height:370px;
+  }
+
+
+  .ImazhetModal{
+    margin-top: 10px;
+  }
+
+  #Order a {
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  #Order a:hover{
+    color: red;
+  }
+
+  .ModalFooter {
+    width:100%;
+   position:relative; 
+   bottom:0;
+   float:left;
+   border-top:1px solid black;
+  }
+
+  .ModalFooter ul li {
+    float:left;
+     margin-right:30px;
+    list-style-type:none;
+    font-size:20px;
+  }
+
+  .ModalFooter h2 {
+    float:right;
+    margin-right:20px;
+    color:red;
+  }
+
+  .ModalFooter h2:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    color:black;
+  }
+
+
+  #LaptopModal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  .ModalContent {
+    position:fixed;
+    left: 100px; 
+    top: 100px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 80%;
+    height:60%;
+    overflow: scroll;
+    box-shadow: 12px 12px 2px 1px rgba(0,0,0,0.4);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animatetop;
+    animation-duration: 0.5s;
+  }
+
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+  .close2 {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    right: 0%;
+    float: right;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #DesktopModal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+
+  .close3 {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    right: 0%;
+    float: right;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 768px){
+  .col-4 {width: 33.33%;}
+  .col-3 {width: 30.5%;}
+  .col-12 {width: 100%;}
+}

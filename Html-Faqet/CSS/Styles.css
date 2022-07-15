@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding:0;
+    width: 100%;
+}
+
+header {
+    padding: 0;
+    margin: 0;   
+}
+
+ 
+#Qendra {
+    background-image: url(../Imazhet/photo-1468495244123-6c6c332eeece.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+    padding: 150px;
+    text-align: center;
+}
+
+#Qendra h1 {
+   font-size: 5em;
+   color: #fefefe;
+}
+
+#Qendra h4 {
+    font-size: 3em;
+    color: #fefefe;
+    text-decoration: underline;
+}
+
+#Containeret{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.Containeri{
+    box-shadow: 5px 16px 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 6px;
+    width: 25%;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.HeaderiCon{
+    background-color: rgb(8, 8, 26);
+    color: white;
+    height: 30%;
+    width: 100%;
+}
+
+.HeaderiCon h1{
+   margin: 0;
+   text-align: center;
+}
+
+.ContainerBody{
+   font-size: 20px;
+   margin: 20px;
+   color: black;
+   text-decoration: none;
+}
+
+.ContainerBody a {
+    text-decoration: none;
+    color: #19334a;
+    font-size: 20px;
+}
+
+
+.Containeri a:hover{
+    color: black;
+    cursor: pointer;
+}

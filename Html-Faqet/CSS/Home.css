@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Home {
+    background-color: rgb(251, 251, 251); 
+    color: black;  
+    margin-top: 55px;
+}
+
+.OfertatOptions{
+    text-align: center;
+}
+
+.Ofertat {
+    display: inline-block;
+     border-top:1px solid rgb(232, 225, 225);
+    border-right:  1px solid rgb(232, 225, 225);
+    border-left: 1px solid rgb(232, 225, 225);
+    padding-right: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    } 
+
+    .Ofertat a {
+        margin-left: 150px;
+    }
+
+    .Ofertat:hover{
+        cursor: pointer;
+        background-color:	rgb(128,128,128);
+        transition: background-color.3s ease-in;
+        color: whitesmoke;
+    }
+
+    .Ofertat a:active{  
+        color: whitesmoke;
+    }
+
+    .Containers{
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 100px;
+       margin-right: 100px;  
+    -webkit-animation-name: animatefromleft;
+    -webkit-animation-duration: 2s;
+    animation-name: animatefromleft;
+    animation-duration: 2s;
+    }
+
+    @-webkit-keyframes animatefromleft {
+        from {top:-400px;  opacity:0} 
+        to {top:0; opacity:1}
+      }
+      
+      @keyframes animatefromleft {
+      from {top:-400px;  opacity:0}
+      to {top:0; opacity:1}
+    }
+     
+
+#OfertaF {
+margin-top: 30px;
+text-align: left;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+}
+
+#TitulliF{
+    margin-top: 20px;
+    text-align: center
+}
+
+#OfertaS {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btnOfertat{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:black;
+}
+
+.ImazhetCon {
+margin-left: 10px;
+float: left;
+}
+
+#OfertaSony {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+#oferta{
+    float: right;
+}
+
+@media only screen and (min-width: 768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+
+
